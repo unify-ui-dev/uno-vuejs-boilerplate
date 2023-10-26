@@ -1,3 +1,23 @@
+<script lang="ts" setup>
+import { useHead } from 'unhead'
+import UiContainer from '@/components/ui/UiContainer.vue';
+
+useHead({
+  title: 'Unify-UI BoilerPlate',
+  meta: [
+    {
+      name: 'description',
+      content: 'My page description',
+    },
+  ],
+  link:[
+    {
+        href:"https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap",
+        rel:"stylesheet"
+    }
+  ]
+})
+</script>
 <template>
       <main class="flex-1">
         <section py32 h-full flex items-center>
@@ -11,7 +31,7 @@
                 <h1 un-text="4xl md:5xl lg:6xl xl:7xl transparent"
                     un-bg="clip-text gradient-to-tr gradient-from-neutral950 gradient-to-neutral5 dark:gradient-from-neutral-4 dark:gradient-to-neutral-2"
                     un-font="extrabold" class="max-w-4xl mx-auto">
-                    Design faster your website will ease
+                    Design faster your website with ease
                 </h1>
                 <p un-text="neutral7 dark:neutral3" class="mx-auto max-w-xl">
                     Collection of modern and elegant blocks and components for creating beautifull website with UnoCss
@@ -33,23 +53,3 @@
         </section>
     </main>
 </template>
-<script setup lang="ts">
-import { useHead } from 'unhead'
-import UiContainer from '@/components/ui/UiContainer.vue';
-
-useHead({
-  title: 'Unify-UI BoilerPlate',
-  meta: [
-    {
-      name: 'description',
-      content: 'My page description',
-    },
-  ],
-  link:[
-    {
-        href:"https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap",
-        rel:"stylesheet"
-    }
-  ]
-})
-</script>

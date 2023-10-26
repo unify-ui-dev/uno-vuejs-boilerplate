@@ -10,7 +10,7 @@
                     </router-link>
                 </div>
                 <div class="flex items-center gap-x4 pl5">
-                    <router-link to="#" target="_blank" aria-label="Go to GIthub" class="rd-lg p3 hover-bg-neutral-1 dark-hover-bg-neutral-8">
+                    <router-link to="https://github.com/unify-ui-dev" target="_blank" aria-label="Go to GIthub" class="rd-lg p3 hover-bg-neutral-1 dark-hover-bg-neutral-8">
                         <span aria-hidden="true" i-carbon-logo-github text-2xl text-neutral-8 dark-text-neutral2 flex></span>
                     </router-link>
                     <ToggleTheme/>
